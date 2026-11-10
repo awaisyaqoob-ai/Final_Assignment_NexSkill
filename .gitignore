@@ -1,0 +1,21 @@
+# macOS and editor artifacts
+.DS_Store
+__MACOSX/
+._*
+.vscode/
+.idea/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
